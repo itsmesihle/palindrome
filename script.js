@@ -6,7 +6,6 @@ checkBtn.addEventListener("click", () => {
   const inputText = inputValue.value;
   const cleanText = inputText.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
   console.log(inputText);
-  console.log(cleanText);
 
   if (inputText === "") {
     alert("Please input a value");
@@ -20,5 +19,4 @@ checkBtn.addEventListener("click", () => {
   } else {
     resultDisplay.textContent = `${inputText} is not a palindrome`;
   }
-  console.log(reversedText);
 });
