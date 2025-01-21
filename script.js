@@ -22,5 +22,3 @@ checkBtn.addEventListener("click", () => {
   }
   console.log(reversedText);
 });
-
-//fix parameter for input
